@@ -53,14 +53,14 @@
 
             .progress {
                 background-color: $black;
-                padding: 4px;
+                padding: 2px;
                 box-sizing: border-box;
                 border: 1px solid $lime;
                 border-radius: 20px;
 
                 .progress-bar {
                     background: $lime;
-                    width: 100%;
+                    width: 0;
                     height: 10px;
                     animation: progress 1.5s ease-in-out forwards;
                 }
@@ -69,6 +69,15 @@
 
         }
 
+    }
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
     }
 }
 
