@@ -4,7 +4,7 @@
 .skills {
     padding-top: 50%;
     padding-bottom: 0;
-    background-image: url('../images/skillbgd.jpg');
+    background-image: url('../images/mount.jpeg');
     background-position: center center;
     opacity: 0.8;
     @include background-cover;
@@ -60,9 +60,9 @@
                     height: 100%;
                     border-radius: 20px;
                     position: relative;
-                    -webkit-transition: width 3000ms linear;
-                    -moz-transition: width 3000ms linear;
-                    transition: width 3000ms linear;
+                    -webkit-transition: width 1000ms linear;
+                    -moz-transition: width 1000ms linear;
+                    transition: width 1000ms linear;
 
                     &:after {
                         position: absolute;
@@ -76,15 +76,6 @@
 
         }
 
-    }
-}
-
-@keyframes progress {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
     }
 }
 
