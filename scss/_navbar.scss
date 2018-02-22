@@ -18,6 +18,15 @@
         &:hover {
             color: darken($primary, .1);
         }
+
+        #logo {
+            width: 40%;
+        }
+
+        #logo-color {
+            visibility: hidden;
+        }
+
     }
 
     .navbar-nav {
