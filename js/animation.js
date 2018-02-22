@@ -41,10 +41,7 @@
     }, 300);
 
     //show colored logo
-    function setImageVisible(id, visible) {
-        const img = document.getElementById(id);
-        img.style.visibility = (visible ? 'visible' : 'hidden');
-    }
+
 
     //skill bar progress
     const _bars = [].slice.call(document.querySelectorAll('.progress-bar'));

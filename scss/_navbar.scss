@@ -9,24 +9,33 @@
     @include transition-all;
 
     .navbar-brand {
+        position: relative;
+        top: 0;
+        left: 0;
         font-weight: 700;
         text-transform: uppercase;
         color: $primary;
         @include sans-serif-font;
 
+        .logo {
+            width: 30%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
         &:focus,
         &:hover {
             color: darken($primary, .1);
-        }
 
-        #logo {
-            width: 40%;
+            .logo-color {
+                visibility: visible;
+                width: 30%;
+                position: absolute;
+                top: 6px;
+                left: 1px;
+            }
         }
-
-        #logo-color {
-            visibility: hidden;
-        }
-
     }
 
     .navbar-nav {
