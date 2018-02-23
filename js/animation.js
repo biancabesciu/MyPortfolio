@@ -39,10 +39,7 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-
-    //show colored logo
-
-
+    
     //skill bar progress
     const _bars = [].slice.call(document.querySelectorAll('.progress-bar'));
 
