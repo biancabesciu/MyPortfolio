@@ -18,7 +18,7 @@
         @include sans-serif-font;
 
         .logo {
-            width: 30%;
+            width: 50%;
             position: relative;
             top: 0;
             left: 0;
@@ -27,14 +27,6 @@
         &:focus,
         &:hover {
             color: darken($primary, .1);
-
-            .logo-color {
-                visibility: visible;
-                width: 30%;
-                position: absolute;
-                top: 6px;
-                left: 1px;
-            }
         }
     }
 
