@@ -39,7 +39,7 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-    
+
     //skill bar progress
     const _bars = [].slice.call(document.querySelectorAll('.progress-bar'));
 
