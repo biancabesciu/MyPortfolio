@@ -1,0 +1,49 @@
+
+/* TEAM */
+
+
+Your title: Bianca's Portfolio
+
+
+Site: bianca.amsterdam
+
+Github:
+
+Linkedin:
+
+
+
+
+
+Location: Amsterdam, netherlands.
+
+
+
+                        [...]
+
+
+
+/* THANKS */
+
+
+Name: name or url
+
+
+
+                        [...]
+
+
+
+/* SITE */
+
+
+Last update: YYYY/MM/DD
+
+
+Standards: HTML5, CSS3,..
+
+
+Components: Modernizr, jQuery, etc.
+
+
+Software: Software used for the development
