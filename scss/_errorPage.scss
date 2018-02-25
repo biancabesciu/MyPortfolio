@@ -1,0 +1,14 @@
+@import "variables";
+
+header.errorPage {
+    height: 100%;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url('../images/pexels-photo-572897.jpeg');
+    background-position: center center;
+    @include background-cover;
+
+    .logo {
+        width: 8%;
+    }
+}
