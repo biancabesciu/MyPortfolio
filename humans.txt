@@ -18,20 +18,10 @@ Instagram: bia0209
 Location: Amsterdam, netherlands.
 
 
-
-                        [...]
-
-
-
 /* THANKS */
 
+
 Many thanks to the Bootstrap team, who made everything much easier for me as a junior Front-End Dev.
-
-
-
-
-                        [...]
-
 
 
 /* SITE */
@@ -39,11 +29,10 @@ Many thanks to the Bootstrap team, who made everything much easier for me as a j
 
 Last update: 2018/02/25
 
-
-Standards: HTML5, CSS3, JavaScript
+Standards: HTML5, CSS3, Bootstrap, JavaScript
 
 
 Components: jQuery
 
 
-Software: PhpStorm
+Software: PhpStorm, Gulp
