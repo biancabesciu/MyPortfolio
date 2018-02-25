@@ -7,13 +7,13 @@ Your title: Bianca's Portfolio
 
 Site: bianca.amsterdam
 
-Github:
+Github: biancabesciu
 
-Linkedin:
+Linkedin: bianca-besciu-15760b55
 
+Facebook: bianca.besciu
 
-
-
+Instagram: bia0209
 
 Location: Amsterdam, netherlands.
 
@@ -25,8 +25,8 @@ Location: Amsterdam, netherlands.
 
 /* THANKS */
 
+Many thanks to the Bootstrap team, who made everything much easier for me as a junior Front-End Dev.
 
-Name: name or url
 
 
 
@@ -37,13 +37,13 @@ Name: name or url
 /* SITE */
 
 
-Last update: YYYY/MM/DD
+Last update: 2018/02/25
 
 
-Standards: HTML5, CSS3,..
+Standards: HTML5, CSS3, JavaScript
 
 
-Components: Modernizr, jQuery, etc.
+Components: jQuery
 
 
-Software: Software used for the development
+Software: PhpStorm
