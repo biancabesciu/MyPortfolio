@@ -1,38 +1,16 @@
-
-/* TEAM */
-
-
-Your title: Bianca's Portfolio
-
-
+Author: Bianca Besciu
 Site: bianca.amsterdam
-
-Github: biancabesciu
-
-Linkedin: bianca-besciu-15760b55
-
-Facebook: bianca.besciu
-
-Instagram: bia0209
-
-Location: Amsterdam, netherlands.
+Github: https://github.com/biancabesciu
+Linkedin: https://www.linkedin.com/in/bianca-besciu-15760b55/
+Facebook: https://www.facebook.com/bianca.besciu
+Location: Amsterdam, Netherlands.
 
 
 /* THANKS */
-
-
 Many thanks to the Bootstrap team, who made everything much easier for me as a junior Front-End Dev.
 
 
 /* SITE */
-
-
-Last update: 2018/02/25
-
-Standards: HTML5, CSS3, Bootstrap, JavaScript
-
-
-Components: jQuery
-
-
-Software: PhpStorm, Gulp
+Technologies: HTML5, CSS3, JavaScript ES6
+Libraries: jQuery, Bootstrap
+Tools: PhpStorm, Gulp, Babel, Sass
