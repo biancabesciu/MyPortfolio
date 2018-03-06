@@ -18,6 +18,7 @@
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
+
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
@@ -39,6 +40,25 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
+
+    //logo change
+    let logo = $(".logo-white");
+
+    $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+
+        if (scroll > 100) {
+            if(!logo.hasClass("logo-color")) {
+                logo.hide();
+                logo.removeClass('logo-white').addClass("logo-color").fadeIn( "slow");
+            }
+        } else {
+            if(!logo.hasClass("logo-white")) {
+                logo.hide();
+                logo.removeClass("logo-color").addClass('logo-white').fadeIn( "slow");
+            }
+        }
+    });
 
     //skill bar progress
     const _bars = [].slice.call(document.querySelectorAll('.progress-bar'));

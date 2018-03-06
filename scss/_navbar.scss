@@ -17,8 +17,19 @@
         color: $primary;
         @include sans-serif-font;
 
-        .logo {
-            width: 50%;
+        .logo-white {
+            background: url(../images/logo-white.png) no-repeat;
+            width: 93px;
+            height: 67px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .logo-color {
+            background: url(../images/logo-color.png) no-repeat;
+            width: 93px;
+            height: 67px;
             position: relative;
             top: 0;
             left: 0;
