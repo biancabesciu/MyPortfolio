@@ -41,22 +41,31 @@
         distance: '0px'
     }, 300);
 
-    //logo changes color
-    let logo = $(".logo-white");
+    //logo changes colo
 
     $(window).scroll(function() {
+        let logo = $('.logo-white');
         let scroll = $(window).scrollTop();
 
         if (scroll > 100) {
-            if(!logo.hasClass("logo-color")) {
+            if(!logo.hasClass('logo-color')) {
                 logo.hide();
-                logo.removeClass('logo-white').addClass("logo-color").fadeIn( "slow");
+                logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
             }
         } else {
-            if(!logo.hasClass("logo-white")) {
+            if(!logo.hasClass('logo-white')) {
                 logo.hide();
-                logo.removeClass("logo-color").addClass('logo-white').fadeIn( "slow");
+                logo.removeClass('logo-color').addClass('logo-white').fadeIn('slow');
             }
+        }
+    });
+
+    //on small devices keep logo green
+    $(window).resize(function() {
+        if($(this).width() <= 768) {
+            let logo = $('.logo-white');
+            logo.hide();
+            logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
         }
     });
 
