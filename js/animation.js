@@ -41,8 +41,7 @@
         distance: '0px'
     }, 300);
 
-    //logo changes colo
-
+    //logo changes color
     $(window).scroll(function() {
         let logo = $('.logo-white');
         let scroll = $(window).scrollTop();
@@ -61,9 +60,11 @@
     });
 
     //on small devices keep logo green
-    $(window).resize(function() {
-        if($(this).width() <= 768) {
-            let logo = $('.logo-white');
+    $(window).on('load, resize', function resizeUpdate() {
+        let logo = $('.logo-white');
+        let viewportWidth = $(window).width();
+        
+        if (viewportWidth <= 768) {
             logo.hide();
             logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
         }
