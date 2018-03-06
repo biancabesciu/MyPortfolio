@@ -107,3 +107,23 @@
         }
     }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .col-lg-4 {
+        width: 100%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 21%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .col-lg-4 {
+        width: 50%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 13%;
+    }
+}

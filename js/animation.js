@@ -41,7 +41,7 @@
         distance: '0px'
     }, 300);
 
-    //logo change
+    //logo changes color
     let logo = $(".logo-white");
 
     $(window).scroll(function() {
