@@ -59,7 +59,7 @@
         let logo = $('a.navbar-brand > div');
         let viewportWidth = $(this).width();
 
-        if (viewportWidth <= 768) {
+        if (viewportWidth <= 992) {
             logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
         }
     });
