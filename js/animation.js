@@ -43,19 +43,14 @@
 
     //logo changes color
     $(window).scroll(function() {
-        let logo = $('.logo-white');
-        let scroll = $(window).scrollTop();
+        let logo = $('a.navbar-brand > div');
+        let scroll = $(this).scrollTop();
 
         if (scroll > 100) {
-            if(!logo.hasClass('logo-color')) {
-                logo.hide();
-                logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
-            }
+                logo.addClass('logo-color').fadeIn('slow');
+
         } else {
-            if(!logo.hasClass('logo-white')) {
-                logo.hide();
-                logo.removeClass('logo-color').addClass('logo-white').fadeIn('slow');
-            }
+                logo.removeClass('logo-color').fadeIn('slow');
         }
     });
 
