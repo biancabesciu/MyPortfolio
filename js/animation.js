@@ -63,7 +63,7 @@
     $(window).on('load, resize', function resizeUpdate() {
         let logo = $('.logo-white');
         let viewportWidth = $(window).width();
-        
+
         if (viewportWidth <= 768) {
             logo.hide();
             logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
