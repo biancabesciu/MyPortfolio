@@ -3,3 +3,10 @@
 #about {
     height: 100%;
 }
+
+@media (min-width: 992px) {
+    #about {
+        height: 59vh;
+        min-height: 650px;
+    }
+}

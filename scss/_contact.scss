@@ -3,3 +3,10 @@
 #contact {
     height: 80%;
 }
+
+@media (min-width: 992px) {
+    #contact {
+        height: 59vh;
+        min-height: 650px;
+    }
+}
