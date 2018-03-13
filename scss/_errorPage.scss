@@ -8,7 +8,7 @@ header.errorPage {
     background-position: center center;
     @include background-cover;
 
-    .logo-color {
-        width: 8%;
+    .logo {
+        height: 50px;
     }
 }
