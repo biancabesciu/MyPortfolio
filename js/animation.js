@@ -54,16 +54,6 @@
         }
     });
 
-    //on small devices keep logo green
-    $(window).on('load, resize', function resizeUpdate() {
-        let logo = $('a.navbar-brand > div');
-        let viewportWidth = $(this).width();
-
-        if (viewportWidth <= 992) {
-            logo.removeClass('logo-white').addClass('logo-color').fadeIn('slow');
-        }
-    });
-
     //skill bar progress
     const _bars = [].slice.call(document.querySelectorAll('.progress-bar'));
 
